@@ -29,7 +29,7 @@ async function translateText (text, source, target) {
         var xhr = new XMLHttpRequest();
         xhr.open('POST', endpoint, true);
         xhr.setRequestHeader('Content-type', 'application/json');
-        xhr.setRequestHeader("Authorization", 'Bearer ya29.c.Kl67ByHsCnxdUTivuo7AjbUaPJ-AR7RnPCo8HwCECcGNPbzOxRV1gvZQoWNg3mDRTimdqq9MPk_zkXube01r33RX3HKBWU2kapprSCOrGsovu7t1p3h_1G-9OPhZAXdX');
+        xhr.setRequestHeader("Authorization", 'Bearer ya29.c.Kl67B8SzZZn44cJef-iqq-rAN_jQYLBf0EkNrBn5oc2IhdWN0eYj3lirtuzZBWlcSU6TSpmUvBD2XhrON3O4dNfkQveF6S4JtfKmyTOGxBHGJ3uwT5LqthRn9_qfdFK_');
         xhr.onreadystatechange = function () {
             if (this.readyState === XMLHttpRequest.DONE && this.status === 200) {
               const response = JSON.parse(xhr.responseText);
