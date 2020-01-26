@@ -1,5 +1,5 @@
-var nativeLanguage
-var languageLearn
+var nativeLanguage = ""
+var languageLearn = ""
 document.getElementById("native")
 
 function setNL(countryCode, fullname) {
@@ -80,6 +80,8 @@ addButton.addEventListener('click', () => {
 beginButton.addEventListener('click', () => {
     if (words.length < 4) {
       alert("You must have more than 4 words or more!")
+    } else if (nativeLanguage === "" || languageLearn === "" || nativeLanguage === languageLearn) {
+      alert("Please select your languages!")
     } else {
       selection.classList.add('hide')
       quiz.classList.remove("hide")
