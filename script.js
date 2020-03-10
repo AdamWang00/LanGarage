@@ -1,3 +1,4 @@
+const TOKENG = "INSERT GOOGLE AUTH TOKEN HERE"
 var nativeLanguage = ""
 var languageLearn = ""
 document.getElementById("native")
@@ -29,7 +30,7 @@ async function translateText (text, source, target) {
         var xhr = new XMLHttpRequest();
         xhr.open('POST', endpoint, true);
         xhr.setRequestHeader('Content-type', 'application/json');
-        xhr.setRequestHeader("Authorization", 'Bearer ya29.ImW8BxeuaZxmej05HchbkIonSQNWeI7CQXuc8RRwYmS5iUq9eSzkXOXd4FqyhT7Uz-OU9DvfDPB5xfjfB2ORSglpXt7xf9a_S4IqT4HuI25pm62l7O6PM4kng-07U7t4IPCtvWCNUg');
+        xhr.setRequestHeader("Authorization", 'Bearer ' + TOKENG);
         xhr.onreadystatechange = function () {
             if (this.readyState === XMLHttpRequest.DONE && this.status === 200) {
               const response = JSON.parse(xhr.responseText);
