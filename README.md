@@ -1,5 +1,5 @@
 # LanGarage
-A customizable, garage-themed web application for language learning.
+A customizable web application for language learning using Google Translate API (Google Cloud Auth token required).
 
 # Development Team
 Adam Wang, Albert Zhu, Joshua Tan
