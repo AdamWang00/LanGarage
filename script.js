@@ -1,7 +1,6 @@
 const TOKENG = "INSERT GOOGLE AUTH TOKEN HERE"
 var nativeLanguage = ""
 var languageLearn = ""
-document.getElementById("native")
 
 function setNL(countryCode, fullname) {
   nativeLanguage = countryCode;
