@@ -1,4 +1,4 @@
-const TOKENG = "INSERT GOOGLE AUTH TOKEN HERE"
+const TOKENG = "<INSERT GOOGLE AUTH TOKEN HERE>"
 var nativeLanguage = ""
 var languageLearn = ""
 
